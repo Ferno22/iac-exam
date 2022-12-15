@@ -1,0 +1,15 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "storageAccountNames": {
+            "value": ["afernandez-finalexam1", "afernandez-finalexam2"]
+        },
+        "storageAccountSkuName": {
+            "value": "Standard_LRS"
+        },
+        "deployApp":{
+            "value": true
+        }
+    }
+}
